@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/editText_results"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:inputType="textNoSuggestions"
+        android:singleLine="true"
+        android:text="@string/initial_result_value" >
+    </EditText>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout_row1"
+            android:layout_width="match_parent"
+            android:layout_height="75dip"
+            android:layout_weight="1"
+            android:baselineAligned="true"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_7"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/number_7"
+                android:textSize="25dip" />
+
+            <Button
+                android:id="@+id/btn_8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/number_8"
+                android:textSize="25dip" />
+
+            <Button
+                android:id="@+id/btn_9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/number_9"
+                android:textSize="25dip" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout_row2"
+            android:layout_width="match_parent"
+            android:layout_height="75dip"
+            android:layout_weight="1"
+            android:baselineAligned="true"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/number_4"
+                android:textSize="25dip" />
+
+            <Button
+                android:id="@+id/btn_5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/number_5"
+                android:textSize="25dip" /><Button
+                android:id="@+id/btn_6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/number_6"
+                android:textSize="25dip" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout_row3"
+            android:layout_width="match_parent"
+            android:layout_height="75dip"
+            android:baselineAligned="true"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/number_1"
+                android:textSize="25dip" />
+
+            <Button
+                android:id="@+id/btn_2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/number_2"
+                android:textSize="25dip" />
+
+            <Button
+                android:id="@+id/btn_3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/number_3"
+                android:textSize="25dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout_row4"
+            android:layout_width="match_parent"
+            android:layout_height="75dip"
+            android:layout_weight="1"
+            android:baselineAligned="true"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout_math_operations_left"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <Button
+                    android:id="@+id/btn_add"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/add"
+                    android:textSize="25dip" />
+
+                <Button
+                    android:id="@+id/btn_subtract"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/subtract"
+                    android:textSize="25dip" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_0"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/number_0"
+                android:textSize="25dip" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout_math_operations_right"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <Button
+                    android:id="@+id/btn_multiply"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/multiply"
+                    android:textSize="25dip" />
+
+                <Button
+                    android:id="@+id/btn_divide"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/divide"
+                    android:textSize="25dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_equals"
+        android:layout_width="match_parent"
+        android:layout_height="75dip"
+        android:layout_weight="1"
+        android:text="@string/equals"
+        android:textSize="25dip" />
+
+</LinearLayout>
