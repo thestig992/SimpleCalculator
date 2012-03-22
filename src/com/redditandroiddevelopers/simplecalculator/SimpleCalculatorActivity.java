@@ -1,4 +1,4 @@
-package com.rad.simplecalculator;
+package com.redditandroiddevelopers.simplecalculator;
 
 import android.app.Activity;
 import android.os.Bundle;
