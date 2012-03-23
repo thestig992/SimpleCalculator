@@ -19,5 +19,6 @@
     <string name="divide">/</string>
     <string name="equals">=</string>
     <string name="initial_result_value">0</string>
+    <string name="delete">DEL</string>
 
 </resources>

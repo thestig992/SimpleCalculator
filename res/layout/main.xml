@@ -184,12 +184,26 @@
         </LinearLayout>
     </LinearLayout>
 
-    <Button
-        android:id="@+id/btn_equals"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="75dip"
-        android:layout_weight="1"
-        android:text="@string/equals"
-        android:textSize="25dip" />
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/btn_equals"
+            android:layout_width="match_parent"
+            android:layout_height="75dip"
+            android:text="@string/equals"
+            android:textSize="25dip" android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="match_parent"
+            android:layout_height="75dip"
+            android:layout_weight="2"
+            android:text="@string/delete"
+            android:textSize="25dip" />
+
+    </LinearLayout>
 
 </LinearLayout>
